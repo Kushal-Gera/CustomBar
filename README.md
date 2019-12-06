@@ -18,6 +18,7 @@ CustomBar
 * #### Set Margins
 * #### Change Text Color, and Text Size
 * #### Add ActionView Color and Text Size
+* #### Set Custom Icon
 ---
 
 
@@ -44,6 +45,10 @@ CustomBar(your_view, "Removed Successfully", Snackbar.LENGTH_SHORT).run {
 
     //Specify Action Color Here! Default == @accentColor
             this.actionTextColor(R.color.colorAccent)
+
+
+    //Specify Custom Icon 
+            this.setIcon(resources.getDrawable(R.drawable.android), null, null, null)
 
     //Calls the good old Snackbar.show()
             this.show()
