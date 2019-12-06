@@ -10,6 +10,12 @@ import com.google.android.material.snackbar.Snackbar
 @Suppress("DEPRECATION")
 class CustomBar(private val view: View, text: String, length: Int) {
 
+    companion object {
+        val LENGTH_INDEFINITE = Snackbar.LENGTH_INDEFINITE
+        val LENGTH_LONG = Snackbar.LENGTH_LONG
+        val LENGTH_SHORT = Snackbar.LENGTH_SHORT
+    }
+
     private val bar = Snackbar.make(view, text, length)
 
     private val barView = bar.view
