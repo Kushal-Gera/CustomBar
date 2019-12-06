@@ -6,6 +6,7 @@ CustomBar
 ## *Bored of Your OLD Snackbar!! You got to the right place*
 
 
+
 **Key Features of CustomBar**
 ---
 
@@ -27,9 +28,6 @@ CustomBar(your_view, "Removed Successfully", Snackbar.LENGTH_SHORT).run {
 
    //Set custom background Resources from here
             this.setBackground(R.drawable.round_corners)
-
-   //Want to set all margin at once
-            this.setMargins(15)
 
    //Want to set custom margins, Here is the way to go!
             this.setMargins(15, 0, 15, 30)
