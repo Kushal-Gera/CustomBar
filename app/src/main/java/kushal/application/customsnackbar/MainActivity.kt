@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        CustomBar(tv, "Removed Successfully", CustomBar.LENGTH_INDEFINITE).run {
+        CustomBar(tv, "   Removed Successfully", CustomBar.LENGTH_INDEFINITE).run {
 
             this.setBackground(R.drawable.round_corners)
 
@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
             this.actionText("Undo", View.OnClickListener {}, false, 16f)
 
             this.actionTextColor(R.color.colorAccent)
+
+            this.setIcon(resources.getDrawable(R.drawable.android), null, null, null)
 
             this.show()
         }

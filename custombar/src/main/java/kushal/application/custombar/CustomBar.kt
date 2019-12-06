@@ -1,6 +1,7 @@
 package kushal.application.custombar
 
 import android.graphics.drawable.Drawable
+import android.view.Gravity
 import android.view.View
 import android.widget.FrameLayout
 import android.widget.TextView
@@ -22,6 +23,7 @@ class CustomBar(private val view: View, text: String, length: Int) {
     private val barActionTV = bar.view.findViewById(R.id.snackbar_action) as TextView
     private val params = bar.view.layoutParams as FrameLayout.LayoutParams
     val barTextTV = bar.view.findViewById(R.id.snackbar_text) as TextView
+
 
     /**
      * Set any resource file as the background,
@@ -104,6 +106,14 @@ class CustomBar(private val view: View, text: String, length: Int) {
      */
     fun actionTextColor(color: Int) {
         bar.setActionTextColor(view.resources.getColor(color))
+    }
+
+    /**
+     * Set Custom Icon
+     */
+    fun setIcon(left: Drawable?, top: Drawable?, right: Drawable?, bottom: Drawable?) {
+        barTextTV.setCompoundDrawablesWithIntrinsicBounds(left, top, right, bottom)
+        barTextTV.gravity = Gravity.CENTER
     }
 
 
