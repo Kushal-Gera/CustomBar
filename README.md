@@ -5,7 +5,10 @@ CustomBar
 
 ## *Bored of Your OLD Snackbar!! You got to the right place*
 
-![Screenshot](Nexus 5x-Screenshot1.png)
+
+![Custom Bar Output Exampe](Nexus 5x-Screenshot1.png)
+---
+
 
 **Key Features of CustomBar**
 ---
