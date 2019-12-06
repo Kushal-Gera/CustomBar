@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
 
 
         CustomBar(tv, "Removed Successfully", Snackbar.LENGTH_INDEFINITE).run {
+            this.setTextSize(18f)
 
             //Set custom background Resources from here
             this.setBackground(R.drawable.round_corners)
