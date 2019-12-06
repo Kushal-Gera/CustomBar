@@ -1,4 +1,5 @@
 #CustomBar
+
 Bored of Your OLD Snackbar! You Got to the right place
 ---
 
@@ -6,6 +7,7 @@ Bored of Your OLD Snackbar! You Got to the right place
 
 **Key Features**
 ---
+
 *Set Custom Backgrounds drawables
 *Change Background Colors
 *Set Margins
@@ -17,6 +19,7 @@ Bored of Your OLD Snackbar! You Got to the right place
 **Usage Example**
 
 '''
+
 CustomBar(your_view, "Removed Successfully", Snackbar.LENGTH_SHORT).run {
 
             //Set custom background Resources from here
@@ -50,6 +53,7 @@ CustomBar(your_view, "Removed Successfully", Snackbar.LENGTH_SHORT).run {
 
 Add it in your root build.gradle at the end of repositories:
 ---
+
 '''
 allprojects {
 		repositories {
@@ -61,6 +65,7 @@ allprojects {
 
 Step 2. Add the dependency
 ---
+
 '''
 dependencies {
 	        implementation 'com.github.Kushal-Gera:CustomBar:Tag'
