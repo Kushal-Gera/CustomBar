@@ -1,6 +1,5 @@
 package kushal.application.custombar
 
-import android.content.res.Resources
 import android.graphics.drawable.Drawable
 import android.view.View
 import android.widget.FrameLayout
@@ -72,6 +71,10 @@ class CustomBar(private val view: View, text: String, length: Int) {
      */
     fun setTextSize(size: Float) {
         barTextTV.textSize = size
+    }
+
+    fun setTextColor(colorResource: Int) {
+        barTextTV.setTextColor(view.resources.getColor(colorResource))
     }
 
     /**

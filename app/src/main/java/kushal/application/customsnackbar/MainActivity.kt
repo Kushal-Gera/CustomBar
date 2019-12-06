@@ -1,5 +1,6 @@
 package kushal.application.customsnackbar
 
+import android.graphics.Color
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -15,26 +16,17 @@ class MainActivity : AppCompatActivity() {
 
 
         CustomBar(tv, "Removed Successfully", Snackbar.LENGTH_INDEFINITE).run {
-            this.setTextSize(18f)
 
-            //Set custom background Resources from here
             this.setBackground(R.drawable.round_corners)
 
-            //Want to set all margin
-            this.setMargins(15)
-
-            //Want to set custom margins, Here is the way to go!
             this.setMargins(15, 0, 15, 30)
 
-            //Add ActionText and ActionListener to CustomBar
-            //With optional UpperCase/LowerCase boolean
-            //With optional TextSize declaration
+            this.setTextSize(16f)
+
             this.actionText("Undo", View.OnClickListener {}, false, 16f)
 
-            //Specify Action Color Here! Default == @accentColor
             this.actionTextColor(R.color.colorAccent)
 
-            //Calls the good old Snackbar.show()
             this.show()
         }
 
