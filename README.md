@@ -18,8 +18,8 @@ Bored of Your OLD Snackbar! You Got to the right place
 
 **Usage Example**
 
-'''
 
+'''
 CustomBar(your_view, "Removed Successfully", Snackbar.LENGTH_SHORT).run {
 
             //Set custom background Resources from here
