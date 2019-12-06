@@ -5,7 +5,7 @@ CustomBar
 
 ## *Bored of Your OLD Snackbar!! You got to the right place*
 
-
+![Screenshot](Nexus 5x-Screenshot1.png)
 
 **Key Features of CustomBar**
 ---
@@ -16,7 +16,6 @@ CustomBar
 * #### Change Text Color, and Text Size
 * #### Add ActionView Color and Text Size
 ---
-
 
 
 ### Usage Example
