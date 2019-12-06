@@ -1,9 +1,12 @@
 CustomBar
 ==========
+---
 
-## Bored of Your OLD Snackbar!! You got to the right place
 
-**Key Features**
+## *Bored of Your OLD Snackbar!! You got to the right place*
+
+
+**Key Features of CustomBar**
 ---
 
 * #### Set Custom Backgrounds drawables
