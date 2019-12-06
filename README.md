@@ -11,12 +11,11 @@ CustomBar
 * #### Set Margins
 * #### Change Text Color, and Text Size
 * #### Add ActionView Color and Text Size
-
-
-
-**Usage Example**
 ---
 
+
+
+### Usage Example
 
 
 ```
@@ -47,11 +46,12 @@ CustomBar(your_view, "Removed Successfully", Snackbar.LENGTH_SHORT).run {
             this.show()
         }
 ```
-
-
-
-**Implementation**
 ---
+
+
+
+### Implementation
+
 
 #### Step 1. Add it in your root build.gradle at the end of repositories:
 
