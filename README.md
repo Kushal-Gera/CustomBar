@@ -6,7 +6,7 @@ CustomBar
 ## *Bored of Your OLD Snackbar!! You got to the right place*
 
 
-![Custom Bar Output Exampe](https://github.com/Kushal-Gera/CustomBar/blob/master/Nexus%205x-Screenshot1.png)
+![Custom Bar Output Exampe](https://github.com/Kushal-Gera/CustomBar/blob/master/screenshot.png)
 ---
 
 
