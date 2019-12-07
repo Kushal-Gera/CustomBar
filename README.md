@@ -77,7 +77,7 @@ allprojects {
 
 ```
 dependencies {
-	        implementation 'com.github.Kushal-Gera:CustomBar:1.2.1'
+	        implementation 'com.github.Kushal-Gera:CustomBar:2.0.0'
 	}
 ```
 
