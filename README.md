@@ -5,7 +5,7 @@ CustomBar
 ## *Bored of Your OLD Snackbar!! You got to the right place*
 
 
-![Custom Bar Output Exampe](https://github.com/Kushal-Gera/CustomBar/blob/master/screenshot.png)
+![Custom Bar Output Exampe](https://github.com/Kushal-Gera/CustomBar/blob/master/main_image.png)
 ---
 
 
