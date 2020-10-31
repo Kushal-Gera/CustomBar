@@ -1,5 +1,6 @@
 CustomBar
 ==========
+---
 
 
 ## *Bored of Your OLD Snackbar!! You got to the right place*
