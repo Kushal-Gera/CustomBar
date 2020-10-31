@@ -1,11 +1,11 @@
 CustomBar
 ==========
----
+
 
 ## *Bored of Your OLD Snackbar!! You got to the right place*
 
 <img src="https://github.com/Kushal-Gera/CustomBar/blob/master/screenshot.png" height="700" width="380">
----
+
 
 **Key Features of CustomBar**
 ---
