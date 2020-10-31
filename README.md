@@ -4,9 +4,7 @@ CustomBar
 
 ## *Bored of Your OLD Snackbar!! You got to the right place*
 
-
-![Custom Bar Output Exampe](https://github.com/Kushal-Gera/CustomBar/blob/master/main_image.png)
----
+<div style="align:center"> <img src="https://github.com/Kushal-Gera/CustomBar/blob/master/screenshot.png" height="700" width="380"> </div>
 
 
 **Key Features of CustomBar**
